@@ -7,6 +7,8 @@ The task that was allocated during the 2nd round of GUVI Recruitment process
 ![Screenshot (24)](https://github.com/Naveenraj45/GUVI-TASK/assets/127121390/846eaed1-4b44-4926-81d7-7d5ed42cb5ed)
 ![Screenshot (25)](https://github.com/Naveenraj45/GUVI-TASK/assets/127121390/5397db35-938e-44ca-9801-3dc52dce6625)
 ![Screenshot (26)](https://github.com/Naveenraj45/GUVI-TASK/assets/127121390/6006aa23-eed6-43af-a011-33194f9c5455)
+![Screenshot (27)](https://github.com/Naveenraj45/GUVI-TASK/assets/127121390/06a4635b-f91e-4999-851b-9d80b8de12cf)
+
 
 
 
