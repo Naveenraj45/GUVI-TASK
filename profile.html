@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/profile.css" />
+  </head>
+  <body>
+    <button class="logout" id="logout-btn" type="button">LOGOUT</button>
+    <div class="main ms-5 offset-md-2">
+      <main>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <div class="card-header text-center">
+                  <b>Profile Picture</b>
+                </div>
+                <div class="card-body text-center">
+                  <img
+                    id="profileImage"
+                    class="upload img-fluid rounded-circle"
+                  />
+                  <input
+                    type="file"
+                    id="inputImage"
+                    class="mt-2"
+                    onchange="readURL(this)"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header text-center">
+                  <b>Student Details</b>
+                </div>
+                <div class="card-body">
+                  <div class="form-group row">
+                    <label for="inputfirstname" class="col-sm-3 col-label"
+                      >Firstname</label
+                    >
+                    <div class="col-sm-6">
+                      <input
+                        id="inputfirstname"
+                        type="text"
+                        class="input"
+                        name="Firstname"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputlastname" class="col-sm-3 col-form-label"
+                      >Lastname</label
+                    >
+                    <div class="col-sm-6">
+                      <input
+                        id="inputlastname"
+                        name="Lastname"
+                        type="text"
+                        class="input"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label
+                      for="inputnewpassword"
+                      class="col-sm-3 col-form-label"
+                      >New Password</label
+                    >
+                    <div class="col-sm-6">
+                      <input
+                        id="inputnewpassword"
+                        name="NewPassword"
+                        type="password"
+                        class="input"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputage" class="col-sm-3 col-form-label"
+                      >Age</label
+                    >
+                    <div class="col-sm-6">
+                      <input
+                        id="inputage"
+                        name="age"
+                        type="tel"
+                        class="input"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputdob" class="col-sm-3 col-form-label"
+                      >DOB</label
+                    >
+                    <div class="col-sm-6">
+                      <input
+                        id="inputdob"
+                        name="Dob"
+                        type="date"
+                        class="input"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputcontact" class="col-sm-3 col-form-label"
+                      >Contact</label
+                    >
+                    <div class="col-sm-6">
+                      <input
+                        id="inputcontact"
+                        name="Contact"
+                        type="tel"
+                        class="input"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn" id="edit-btn" type="button">
+                      Edit
+                    </button>
+                    <button
+                      class="btn btn-success"
+                      id="update-btn"
+                      type="button"
+                      style="display: none"
+                    >
+                      Update
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/profile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
